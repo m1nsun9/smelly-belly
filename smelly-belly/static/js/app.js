@@ -1,7 +1,7 @@
 // load samples.json with d3 library
 var samples = "";
 
-d3.json("samples.json").then((data) => {
+d3.json("smelly-belly/samples.json").then((data) => {
     samples = data;
     // // add option for each client in dropdown menu
     d3.select("#selDataset").selectAll("option")
